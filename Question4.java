@@ -18,6 +18,13 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    int number = in.NextInt();
+    while (number != 0) {
+	    for (int j = 0; j < number; j++){
+		    System.out.print("*");
+	    }
+      System.out.println();
+      number = number - 1;
+    }
   }
 }
