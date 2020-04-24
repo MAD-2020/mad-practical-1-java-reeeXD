@@ -18,7 +18,7 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    int number = in.NextInt();
+    int number = in.nextInt();
     while (number != 0) {
 	    for (int j = 0; j < number; j++){
 		    System.out.print("*");
